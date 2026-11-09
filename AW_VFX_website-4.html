@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AW VFX | Video Editor & VFX Creator</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#090909;color:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+nav{position:sticky;top:0;z-index:10;background:rgba(9,9,9,.95);border-bottom:1px solid #292929;padding:16px 7%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:28px;font-weight:900;font-style:italic}.logo span{color:#e50914}
+.navlinks{display:flex;gap:24px;color:#ddd}.navlinks a:hover{color:#e50914}
+.hero{min-height:88vh;padding:90px 8%;display:flex;align-items:center;background:radial-gradient(circle at 80% 25%,#353535 0,#111 35%,#090909 70%)}
+.hero h1{font-size:clamp(55px,10vw,120px);line-height:.9;font-style:italic;letter-spacing:-4px}
+.hero h1 span{color:#e50914}.tag{letter-spacing:6px;color:#bbb;margin-bottom:18px}
+.subtitle{font-size:clamp(20px,3vw,34px);margin:20px 0;color:#eee;font-style:italic}
+.desc{color:#aaa;margin-bottom:28px}
+.btn{display:inline-block;background:#e50914;border:2px solid #e50914;padding:13px 25px;border-radius:30px;font-weight:bold;transition:.2s}
+.btn:hover{background:transparent;transform:translateY(-2px)}
+section{padding:75px 8%;border-top:1px solid #222}
+h2{font-size:42px;margin-bottom:18px;font-style:italic}h2 span{color:#e50914}
+.about p{max-width:700px;color:#bbb;font-size:18px}
+.features{display:flex;flex-wrap:wrap;gap:16px;margin-top:30px}
+.card{flex:1;min-width:150px;background:#111;border:1px solid #292929;padding:24px;border-radius:12px}
+.card b{display:block;color:#e50914;font-size:22px;margin-bottom:6px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-top:25px}
+.edit{height:180px;border-radius:12px;border:1px solid #333;background:linear-gradient(145deg,#222,#080808);display:flex;align-items:center;justify-content:center;color:#777;font-weight:bold}
+.socials{display:flex;gap:15px;flex-wrap:wrap}
+.social{padding:13px 22px;border:1px solid #444;border-radius:30px}.social:hover{border-color:#e50914;color:#e50914}
+footer{text-align:center;padding:30px;color:#777;border-top:1px solid #222}
+@media(max-width:650px){.navlinks{display:none}.hero{min-height:75vh}.hero h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo"><span>AW</span> VFX</div>
+  <div class="navlinks">
+    <a href="#about">About</a><a href="#edits">My Edits</a><a href="#socials">Socials</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div>
+    <div class="tag">WELCOME TO MY WORLD</div>
+    <h1>AW <span>VFX</span></h1>
+    <div class="subtitle">Turning Moments into Cinematic Stories</div>
+    <p class="desc">Video Editor &nbsp; | &nbsp; VFX Creator &nbsp; | &nbsp; Dreamer</p>
+    <a class="btn" href="#edits">▶ Explore My Edits</a>
+  </div>
+</header>
+
+<section id="about" class="about">
+  <h2>About <span>Me</span></h2>
+  <p>Hey! I'm Ashwin, a passionate Video Editor and VFX Creator. I love creating cinematic edits, exploring visual effects, and turning simple moments into epic stories. Welcome to my creative world!</p>
+  <div class="features">
+    <div class="card"><b>🎬</b>Video Editing</div>
+    <div class="card"><b>✨</b>VFX Effects</div>
+    <div class="card"><b>▶</b>Creative Content</div>
+    <div class="card"><b>⚡</b>Always Improving</div>
+  </div>
+</section>
+
+<section id="edits">
+  <h2>My <span>Edits</span></h2>
+  <p style="color:#aaa">My latest creative work will appear here.</p>
+  <div class="gallery">
+    <div class="edit">EDIT 01</div><div class="edit">EDIT 02</div>
+    <div class="edit">EDIT 03</div><div class="edit">EDIT 04</div>
+  </div>
+</section>
+
+<section id="socials">
+  <h2>Follow <span>Me</span></h2>
+  <div class="socials">
+    <a class="social" href="#">📸 Instagram</a>
+    <a class="social" href="#">📌 Pinterest</a>
+    <a class="social" href="#">▶ YouTube</a>
+  </div>
+</section>
+
+<footer>
+  <b>AW VFX</b><br>Dream • Create • Share<br><br>© 2026 AW VFX. All Rights Reserved.
+</footer>
+</body>
+</html>
